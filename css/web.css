@@ -1,0 +1,192 @@
+body {
+    font-family: arial;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+min-height: 90px;
+
+}
+.navbar ul {
+    display: inline-flex;
+    float: left;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.nav-fixed {
+    background: #fffffff5;
+    position: fixed;
+    top: 0;
+    margin-top: 0;
+    transition: 0.4s;
+    z-index: 888;
+    width: 100%;
+    -webkit-box-shadow: -1px 3px 5px -1px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: -1px 3px 5px -1px rgba(0, 0, 0, 0.59);
+    box-shadow: -1px 3px 5px -1px rgba(0, 0, 0, 0.59);
+}
+.pull-right {
+    float: right !important;
+    
+}
+.top-social ul{
+    display: inline-flex;
+}
+.top-social ul li{
+    padding-right: 20px;
+    border-right: 1px solid wheat;
+    padding-left: 10px;
+}
+.pull-left ul{
+    display: inline-flex;
+}
+.pull-left ul li{
+    padding-right: 10px;
+    
+    padding-left: 10px;
+}
+
+.navbar ul li {
+    position: relative;
+    display: block;
+}
+.navbar ul li a{
+font-size: 15px;
+color: #565656;
+background: none;
+font-weight: 600;
+
+}
+.navbar ul li a:hover{
+    font-size: 17px;
+    color: #565656;
+    background-color: #66a2d3;
+    font-weight: 600;
+    
+    
+    }
+
+
+
+#slides{
+background-color: black;
+}
+figure{
+border: 1px solid rgb(155, 153, 153);
+
+}
+figure figcaption{
+    background-color: #a7dadb;
+    height: 40px;
+}
+.footer-service{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #333;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #6f7281;
+    padding-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+.footer-links ul li i {
+    background: #bcc3d8;
+    border-radius: 25px;
+    padding: 8px;
+    width: 30px;
+    height: 30px;
+    line-height: 14px;
+    text-align: center;
+}
+.footer-links ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    display: block;
+    margin-left: -55px;
+    
+}
+.footer-links ul li{
+    display: inline-block;
+    margin-right: -10px;
+    list-style: none;
+    
+}
+.about p{
+font-family: 'Roboto', sans-serif; 
+font-size: 15px;  
+font-weight: 300;
+color: #333;
+}
+.footer-service ul li {
+    list-style-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: left 15px;
+    line-height: 33px;
+}
+.get-in ul li {
+    line-height: 33px;
+}
+
+.get-in ul li a {
+    padding-left: 8px;
+}
+.text-theme {
+    color: #d99942;
+}
+.pos-r {
+    position: relative;
+}
+
+.form-contact .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.contact_us .contact_us_right_text .form-contact .form-control::placeholder{
+
+    color: white;
+}
+ 
+  /* Standard syntax */
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+  }
+  .big-banner{
+background-image: url(../images/social-media/social-media-marketing.jpg)
+  }
+  .border {
+    background-color: #d99942;
+    height: 4px;
+    width: 75px;
+    margin: auto;
+}
+.box{
+    background-color: white;
+}
+p{
+font-size: 15px;  
+color: #080808;  
+}
